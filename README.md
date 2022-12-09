@@ -1,6 +1,6 @@
 ## If Statments Task
 
-You need to fork REPOSITORY
+You need to fork [REPOSITORY](https://github.com/naiteparak/If-statments-task)
 
 In average.js you need to calculate average age of specified users
 
