@@ -8,20 +8,14 @@ zUser = Number(zUser);
 
 if (!(isNaN(xUser)) && !(isNaN(yUser)) && !(isNaN(zUser))) {
 
-    averageAge = (xUser + yUser + zUser) / 3;
-
+    const averageAge = (xUser + yUser + zUser) / 3;
 
     if (averageAge >= 60) {
         console.log('Average age of users more than 60');
-    } 
-
-    else if (averageAge < 60) {
+    } else if (averageAge < 60) {
         console.log('Average age of users less than 60');
     }
 
-}   
-
-
-else {
+} else {
     console.log('I think you entered something wrong');
 }
