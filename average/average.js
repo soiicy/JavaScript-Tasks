@@ -1,14 +1,3 @@
-
-const findAverage = () => {
-    if (calcAverage() >= 60) {
-        console.log('Average age of users more than 60');
-    }
-
-    else {
-        console.log('Average age of users less than 60');
-    }
-}
-
 const calcAverage = () => {
     const xUser = Math.floor((Math.random() * 100) + 1);
     const yUser = Math.floor((Math.random() * 100) + 1);
@@ -21,5 +10,15 @@ const calcAverage = () => {
 
     return averageAge;
 } 
+
+const findAverage = () => {
+    if (calcAverage() >= 60) {
+        console.log('Average age of users more than 60');
+    }
+
+    else {
+        console.log('Average age of users less than 60');
+    }
+}
 
 findAverage();
